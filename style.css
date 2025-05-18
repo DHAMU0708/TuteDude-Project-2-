@@ -1,0 +1,14 @@
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+  padding-top: 50px;
+  position: relative;
+}
+
+#shape {
+  height: 200px;
+  width: 200px;
+  background-color: red;
+  position: absolute; /* This is critical for movement */
+  display: none;       /* Initially hidden */
+}
